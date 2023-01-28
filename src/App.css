@@ -1,0 +1,114 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background:  #09121D;
+  height: 100vh;
+  padding: 30px;
+  align-items: center ;
+}
+
+.todo-list {
+  position: relative;  
+  background: #1E2835;
+  border-radius: 4px;
+  width: 40%;
+  padding: 10px;
+  
+}
+
+.todo {
+  align-items: center;
+  background: #171F29;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  display: flex;
+  font-size: 12px;
+  color: #798DA3;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  padding: 3px 10px;
+}
+.btn{
+background:#798DA3;
+border-radius: 3px;
+border-color: #86FF00;
+border-width: 0rem;
+padding: 2px;
+margin-left: 5px;
+
+}
+.input{
+  background: #171F29;
+  font-size: 12px;
+  color: #798DA3;
+  outline-width: 0rem;
+  border-width: 0rem;
+  border-radius: 4px;
+  width: 100%;
+  height: 1.5rem;
+  
+
+}
+.inputField{
+  display: flex;
+  background: #171F29;
+  justify-content: space-between;
+}
+.btnSet{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0.5rem;
+}
+.Subbtn1{
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.3rem;
+  width: 3rem;
+  height: 1.5rem;
+}
+.Subbtn2{
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.3rem;
+  width: 1.5rem;
+  width: 2.5rem;
+  margin-left: 0.35rem;
+  
+}
+.tb{
+  display: flex;
+  justify-content: space-between;
+}
+.date{
+  font-size: 12px;
+  color: #798DA3;
+  padding: 0.5rem; 
+  width: 4rem;
+  background-color: #171F29;
+  
+}
+.settime{
+  background-color: #171F29;
+  color: #798DA3;
+  border-width: 0rem;
+}
+.hT{
+  font-size: 2rem;
+  color: #798DA3;
+  font-weight: 800;
+}
+.b1{
+  position: absolute;
+  align-items: center;
+  font-size: 0.8rem;
+  font-weight: 500;
+  
+}
+.bb1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
